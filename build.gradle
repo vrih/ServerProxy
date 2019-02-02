@@ -64,4 +64,8 @@ android {
             dimension "version"
         }
     }
+    
+    lintOptions {
+        abortOnError false
+    }
 }
